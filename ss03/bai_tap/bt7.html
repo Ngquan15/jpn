@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 7</title>
+</head>
+<body>
+    
+    <form>
+        <div>
+            <label for="fullname" style="display:inline-block; width:150px; margin-right: 10px;">Họ và tên:</label>
+            <input type="text" id="fullname" name="fullname" required style="display:inline-block; margin-bottom: 10px;">
+        </div>
+
+        <div>
+            <label for="email" style="display:inline-block; width:150px; margin-right: 10px;">Email:</label>
+            <input type="email" id="email" name="email" required style="display:inline-block; margin-bottom: 10px;">
+        </div>
+
+        <div>
+            <label for="dob" style="display:inline-block; width:150px; margin-right: 10px;">Ngày sinh:</label>
+            <input type="date" id="dob" name="dob" required style="display:inline-block; margin-bottom: 10px;">
+        </div>
+
+        <div>
+            <label style="display:inline-block; width:150px; margin-right: 10px;">Giới tính:</label>
+            <label>
+                <input type="radio" name="gender" value="male" required> Nam
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female"> Nữ
+            </label>
+        </div>
+
+        <div>
+            <label for="phone" style="display:inline-block; width:150px; margin-right: 10px;">Số điện thoại:</label>
+            <input type="tel" id="phone" name="phone" required style="display:inline-block; margin-bottom: 10px;">
+        </div>
+
+        <div>
+            <label for="major" style="display:inline-block; width:150px; margin-right: 10px;">Chuyên ngành:</label>
+            <input type="text" id="major" name="major" style="display:inline-block; margin-bottom: 10px;">
+        </div>
+
+        <div>
+            <label for="enrollmentYear" style="display:inline-block; width:150px; margin-right: 10px;">Năm nhập học:</label>
+            <input type="number" id="enrollmentYear" name="enrollmentYear" required style="display:inline-block; margin-bottom: 10px;">
+        </div>
+
+        <div>
+            <label for="gpa" style="display:inline-block; width:150px; margin-right: 10px;">Điểm GPA:</label>
+            <input type="number" step="0.01" id="gpa" name="gpa" required style="display:inline-block; margin-bottom: 10px;">
+        </div>
+
+        <div>
+            <label for="address" style="display:inline-block; width:150px; margin-right: 10px;">Địa chỉ:</label>
+            <textarea id="address" name="address" style="display:inline-block; margin-bottom: 10px;"></textarea>
+        </div>
+
+        <div>
+            <label for="class" style="display:inline-block; width:150px; margin-right: 10px;">Lớp học:</label>
+            <select id="class" name="class" style="display:inline-block; margin-bottom: 10px;">
+                <option value="class1">Lớp 1</option>
+                <option value="class2">Lớp 2</option>
+                <option value="class3">Lớp 3</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="registrationDate" style="display:inline-block; width:150px; margin-right: 10px;">Ngày đăng ký học:</label>
+            <input type="date" id="registrationDate" name="registrationDate" required style="display:inline-block; margin-bottom: 10px;">
+        </div>
+
+        <button type="submit">Gửi thông tin</button>
+    </form>
+    
+</body>
+</html>
