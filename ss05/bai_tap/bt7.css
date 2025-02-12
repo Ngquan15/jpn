@@ -7,11 +7,11 @@
 }
 .red{
     background-color: red;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .yellow{
     background-color: yellow;
-    color: white;
+    color: rgb(2, 0, 0);
 }
 .green{
     background-color: green;
