@@ -1,0 +1,44 @@
+.div1{
+    background-color: blue;
+    width: 1500px;
+    height: 200px;
+}
+.div2{
+    padding-top: 20px;
+    background-color: white;
+    height: 360px;
+}
+.div3{
+    background-color: gainsboro;
+    width: 1500px;
+    height: 70px;
+}
+h1{
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+.wh{
+    color: white;
+    text-decoration: none
+}
+div{
+    text-align: center;
+    
+}
+img{
+  
+    vertical-align: middle;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dis{
+    display: inline-block;
+    text-align: start;
+  
+}
+.p3{
+    padding-top: 20px;
+}
