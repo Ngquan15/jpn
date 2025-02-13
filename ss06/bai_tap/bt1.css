@@ -7,9 +7,9 @@
    
 }
 .content{
-    padding-top: 20px;
-    background-color: white;
-    height: 360px;
+    text-align: center;
+    line-height: 10px;
+    border-radius: 5px;
 }
 header{
     background-color: rgb(33, 33, 248);
@@ -30,5 +30,4 @@ footer{
 .nt{
     display: inline-block;
     text-align: start;
-    border-bottom: 50px;
 }

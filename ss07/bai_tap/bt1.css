@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    }
+    
+    .class1{
+        height: 320px;
+        width: 530px;
+        background-color: rgb(225, 224, 224);
+        padding-left: 8px;
+        padding-top: 1px;
+    }
+    .but1{
+        color: white;
+        border: none;
+        height: 40px;
+        width: 150px;
+        background-color: rgb(191, 2, 2);
+       
+        
+    }
+    .but2{
+        width: 150px;
+        height: 40px;
+        background-color: rgb(225, 224, 224);
+    }
+    img{
+        margin-left: 4px;
+        margin-right: 6px;
+        vertical-align: middle;
+    }
+    button{
+        
+        margin-left: 5px;
+        border-radius: 7px;
+    }
+    
+    span{
+        vertical-align: middle;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 0, 91);
+    }
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 0, 91);
+    }
+    

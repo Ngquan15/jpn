@@ -1,0 +1,45 @@
+body {
+    font: 16px Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.package {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.package h2 {
+    color: #000000;
+    background-color: #e61717;
+    padding: 20px 100px;
+    border-radius: 4px;
+}
+
+.package ul {
+    list-style: none;
+    padding: 0;
+}
+
+.package ul li {
+    background: #ecf0f1;
+    padding: 10px;
+    border-radius: 4px;
+    color: #333;
+}
+
+.button {
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 20px;
+    color: #fff;
+    background: red;
+}
