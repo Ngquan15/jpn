@@ -1,0 +1,45 @@
+.A{
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+p{
+    width: 70%;
+    margin:  30px auto;
+}
+.head{
+    background-color: rgba(224, 221, 221, 0.348);
+    padding-bottom: 60px;
+}
+.foot{
+    padding-top: 20px;
+    background-color: rgb(224, 221, 221);
+}
+.div{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 60px;
+    border-bottom: 1px solid rgb(224, 221, 221);
+}
+.down{
+    border-radius: 5px ;
+    color: white;
+    height: 40px;
+    border: none;
+    background-color: rgba(53, 53, 245, 0.781);
+    width: 120px;
+}
+.but{
+    border-radius: 5px ;
+    color: rgb(7, 7, 7);
+    height: 40px;
+    border: none;
+    background-color: rgba(222, 222, 231, 0.842);
+    width: 120px;
+}
+span{
+    margin: 0 20px;
+}
+.text{
+    padding-bottom: 40px;
+}

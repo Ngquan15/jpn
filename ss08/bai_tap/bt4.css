@@ -1,0 +1,27 @@
+.class2{
+    margin-left: 26px;
+    margin-top: 26px;
+
+    transform: rotate(-45deg); 
+    width: 33.6px;
+    height: 32px;
+    
+}
+.class1 {
+    width: 85px;
+    height: 85px;
+    border: 2px solid #f4eeee;       
+    transform: rotate(45deg); 
+    margin: 50px 30px 10px 30px; 
+    display: inline-block; 
+}
+
+.div1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -20px;
+    
+}
+.classx{
+    margin-left: 100px;
+}

@@ -1,0 +1,52 @@
+
+.div{
+    width: 500px;
+    height: 350px;
+    background-color: indigo;
+    position: relative;
+    top: 50px;
+    padding: 10px 10px 100px 10px;
+}
+.div1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.input1{
+    width: 180px;
+    height: 35px;
+    background-color: rgb(149, 24, 238);
+}
+.input2{
+    width: 430px;
+    height: 100px;
+    position: relative;
+    background-color: rgb(149, 34, 231);
+
+
+}
+.div2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 250px;
+    bottom: 80px;
+}
+.div3{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 60px;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    bottom: 60px;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 10px;
+}

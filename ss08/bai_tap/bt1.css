@@ -1,0 +1,17 @@
+
+.div1{
+    line-height: 30px;
+    text-align: center;
+}
+.font1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.font3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+}
