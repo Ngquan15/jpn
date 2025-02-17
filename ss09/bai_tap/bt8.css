@@ -1,0 +1,95 @@
+
+div{
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.div1 ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.div1 ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.div1 ul li {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+}
+
+.div1  ul li a:hover {
+    text-decoration: none;
+}
+
+.div2 {
+    margin-top: 20px;
+    background-color: rgb(237, 237, 237);
+    color: black;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.div2 h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.div2 p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    text-decoration: none;
+    background-color: #505050;
+    color: white;
+    padding: 10px 23px;
+}
+.div3 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.div3 h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div4 {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.div4 h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+.text {
+    color: #6d6d6d;
+}
