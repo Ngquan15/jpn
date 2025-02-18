@@ -1,41 +1,6 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-}
 
-div ul {
-    list-style: none;
-    padding: 0;
-}
 
-div ul li {
-    display: inline;
-    margin-right: 20px;
-    position: relative;
-    left: 1500px;
-}
-
-div ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-div ul li a:hover {
-    text-decoration: none;
-}
-
-.name {
-    position: relative;
-    left: 400px;
-    font-weight: bold;
-    font-size: 20px;
-}
 
 main {
     max-width: 900px;

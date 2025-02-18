@@ -1,0 +1,49 @@
+
+header {
+    background-color: darkgray;
+    color: white;
+    padding: 10px 0;
+}
+
+div ul {
+    list-style: none;
+    padding: 0;
+}
+
+div ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+div ul li a {
+    color: #505050;
+    text-decoration: none;
+}
+
+div ul li a:hover {
+    text-decoration: none;
+}
+.navigation{
+    color: black;
+    right: 30px;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Grechen Fuemen", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+button {
+    text-decoration: none;
+    background-color: #505050;
+    color: white;
+    padding: 10px 23px;
+    border-radius: 10px;
+}
+.btn{
+    position: relative;
+}
+.btn i{
+    position: absolute;
+    top: 4%;
+    right: 70px;
+}
