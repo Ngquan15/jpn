@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            background-color: tomato;
+            height: 50px;
+            line-height: 50px;
+        }
+
+        .header input {
+            width: 1200px;
+            padding: 3px;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .header button {
+            width: 270px;
+            border: none;
+            padding: 3px;
+            border-radius: 5px;
+            background-color: aqua;
+            color: black;
+
+        }
+
+        @media screen and (width:768px) {
+            .header {
+                background-color: aqua;
+                height: 50px;
+                line-height: 50px;
+            }
+
+            .header input {
+                width: 768px;
+                padding: 3px;
+                outline: none;
+                border: none;
+                border-radius: 5px;
+            }
+            .header button {
+                width: 100px;
+                border: none;
+                padding: 3px;
+                border-radius: 5px;
+                background-color: aqua;
+                color: black;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class=" header">
+        <input type="text">
+        <button>tìm kiếm</button>
+    </div>
+</body>
+
+</html>

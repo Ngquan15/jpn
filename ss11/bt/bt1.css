@@ -1,0 +1,95 @@
+
+.container {
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.container .box1 {
+    background-color: rgb(255, 0, 0);
+    margin-bottom: 10px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.container .main {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.main .box2 {
+    flex: 1;
+    background-color: green;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.main .box3 {
+    flex: 3;
+    background-color: yellow;
+    height: 500px;
+    color: black;
+    border-radius: 5px;
+}
+
+.main .box4 {
+    flex: 1;
+    background-color: pink;
+    height: 500px;
+    border-radius: 5px;
+}
+
+
+.container .box5 {
+    margin-top: 10px;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:768px) {
+    .container .box1 {
+        background-color: rgb(255, 0, 0);
+        margin-bottom: 10px;
+        height: 40px;
+        align-items: center;
+        display: flex;
+        text-align: center;
+    }
+
+    .container .main {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .container .box2 {
+
+        background-color: green;
+        height: 50px;
+        
+    }
+
+    .main .box3 {
+
+        background-color: yellow;
+        height: 500px;
+        color: black;
+    }
+
+    .container .box4 {
+
+        background-color: pink;
+        height: 500px;
+    }
+    .container .box5 {
+        margin-top: 10px;
+        background-color: blue;
+    }
+
+
+}
