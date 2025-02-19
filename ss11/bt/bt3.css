@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+.top, .end {
+    text-align: center;
+    padding: 10px;
+    background-color: #b00060;
+    color: white;
+    width: 100%;
+    height: 100px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+.divtang2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    max-width: 1200px;
+}
+.box1, .box2, .box3, .box4 {
+    flex: 1 1 calc(25% - 10px);
+    height: 120px;
+    background-color: #e91e63;
+}
+.mid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px;
+}
+.baron {
+    flex: 1 1 calc(50% - 10px);
+    height: 180px;
+    background-color: #f48fb1;
+}
+
+@media (max-width: 1200px) {
+    .box1, .box2, .box3, .box4 {
+        flex: 1 1 calc(50% - 10px);
+        height: 100px;
+    }
+    .baron {
+        flex: 1 1 calc(50% - 10px);
+    }
+}
+
+@media (max-width: 768px) {
+    .box1, .box2, .box3, .box4 {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+    .mid {
+        flex-direction: column;
+    }
+    .baron {
+        flex: 1 1 100%;
+        width: 100%;
+        height: 150px;
+    }
+}

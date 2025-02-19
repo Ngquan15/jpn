@@ -1,0 +1,42 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.divall{
+    background-color: rgba(193, 174, 174, 0.662);
+    width: 60%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.divall .div1 {
+    background-color: forestgreen;
+    width: 95%;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+}
+.div2{
+    background-color: brown;
+    width: 95%;
+    height: 100px;
+}
+.div3 .div33{
+    background-color: deeppink;
+    width: 95%;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+}
+.div4 .div44{
+    background-color: chocolate;
+    width: 95%;
+    height: 50px;
+    gap: 10px;
+}
+@media screen and (min-width: 768px) {
+    
+}
