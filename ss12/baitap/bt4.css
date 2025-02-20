@@ -1,0 +1,25 @@
+.divall{
+    width: 98%;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 1%;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+body{
+    background-color: burlywood;
+    font-family: Arial, sans-serif;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+button{
+    border: none;
+    background-color: blue;
+    border-radius: 4px;
+    color: white;
+}

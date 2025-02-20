@@ -1,0 +1,12 @@
+.cl1{
+
+    display: flex;
+}
+button{
+    background-color: green; 
+    color: white;
+    
+}
+.form-check{
+    margin-left: 5px;
+}
