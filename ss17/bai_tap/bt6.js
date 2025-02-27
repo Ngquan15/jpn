@@ -1,0 +1,9 @@
+let number1 = "5";
+let number2 = "-1";
+let number3 = "hello"
+number1 = Number(number1);//5
+number2 = Number(number2);//-1
+number3 = Number(number3);//NaN
+number1= String(number1);//55
+number2= String(number2);//-10
+number3= String(number3);//0
