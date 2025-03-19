@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn {
+            width: 450px;
+            display: flex;
+        }
+
+        .color-box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+
+        }
+
+        .green-color {
+            background-color: green;
+        }
+
+        .red-color {
+            background-color: red;
+        }
+
+        .plum-color {
+            background-color: plum;
+            color: black;
+        }
+
+        .container {
+            width: 470px;
+            display: flex;
+            gap: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>change background-color</p>
+    <p>Mouse Click</p>
+    <div class="container">
+        <div class="color-box green-color" onclick="changeBackground('green')">Xanh</div>
+        <div class="color-box red-color" onclick="changeBackground('red')">Đỏ</div>
+        <div class="color-box plum-color" onclick="changeBackground('plum')">Tím</div>
+
+    </div>
+    <script src="./bt3.js"></script>
+
+</body>
+
+</html>
