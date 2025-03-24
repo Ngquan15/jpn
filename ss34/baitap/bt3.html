@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 35%;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            color: dimgrey;
+            box-shadow: 0px 0px 10px rgba(0, 0, 1, 0.3);
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        h1 {
+            text-align: center;
+            color: black;
+            height: 30px;
+        }
+
+        label {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        input {
+            border-radius: 5px;
+            height: 25px;
+            width: 95%;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .error {
+            color: red;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        button {
+            background-color: dodgerblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            height: 50px;
+            width: 100%;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: deepskyblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Đăng Ký</h1>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Nhập email của bạn">
+        <span id="emailError" class="error"></span>
+
+        <label for="password">Mật khẩu:</label>
+        <input type="password" id="password" placeholder="Nhập mật khẩu">
+        <span id="passwordError" class="error"></span>
+
+        <label for="confirmPassword">Xác nhận mật khẩu:</label>
+        <input type="password" id="confirmPassword" placeholder="Nhập lại mật khẩu">
+        <span id="confirmPasswordError" class="error"></span>
+
+        <button onclick="register()">Đăng Ký</button>
+    </div>
+
+    <script src="./bt3.js"></script>
+    
+</body>
+</html>

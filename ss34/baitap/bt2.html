@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+
+        th,td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        thead {
+            background-color: rgb(237, 237, 237);
+        }
+
+        input,select,button {
+            margin: 5px;
+            padding: 8px;
+        }
+
+        .actions button {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Task Management</h1>
+
+     
+        <input type="text" id="content" placeholder="Content">
+        <input type="date" id="dueDate">
+        <select id="status">
+            <option value="Pending">Choose Status</option>
+        </select>
+        <input type="text" id="assignedTo" placeholder="Username">
+        <button style="background-color: rgb(39, 230, 255); border: none; border-radius: 3px;" onclick="createCourse()">Submit</button>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Content</th>
+                    <th>Due date</th>
+                    <th>Status</th>
+                    <th>Assigned to</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="table_body"></tbody>
+        </table>
+    </div>
+    
+<script src="./bt2.js"></script>
+    
+</body>
+</html>

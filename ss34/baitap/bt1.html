@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 35%;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            color: dimgrey;
+            box-shadow: 0px 0px 10px rgba(0, 0, 1, 0.3);
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        h1 {
+            text-align: center;
+            color: black;
+            height: 30px;
+        }
+
+        label {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        input {
+            border-radius: 5px;
+            height: 25px;
+            width: 95%;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+
+        button {
+            background-color: rgb(7, 53, 99);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            height: 50px;
+            width: 100%;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: rgb(28, 175, 224);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Register</h1>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email address">
+        <span id="emailError" class="error"></span>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <span id="passwordError" class="error"></span>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" placeholder="Enter your confirm password">
+        <span id="confirmPasswordError" class="error"></span>
+
+        <button onclick="register()">Register</button>
+    </div>
+    <script src="./bt1.js"></script>
+    
+</body>
+</html>
