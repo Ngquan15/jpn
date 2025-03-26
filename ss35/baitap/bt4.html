@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                .inputRow {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #add {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        #add:hover {
+            background-color: #218838;
+        }
+
+        thead tr td {
+            width: 150px;
+            height: 30px;
+            background-color: #F2F2F2;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .tableList {
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+        }
+
+        .tableList td,
+        .tableList th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #pagination {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        #pagination button {
+            margin: 5px;
+            padding: 8px 12px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #pagination button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Danh Sách Nhân Viên Rikkei</h1>
+
+    <table class="inputRow" border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <td>
+                <span>Tên nhân viên</span>
+                <input type="text" id="nameEmployee">
+            </td>
+            <td>
+                <span>Chức vụ</span>
+                <input type="text" id="jobEmployee">
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <button id="add" onclick="addEmployee()">Thêm nhân viên</button>
+
+    <table class="tableList" border="1" cellspacing="0" cellpadding="5" id="list"></table>
+
+    <div id="pagination"></div>
+    <script src="./bt4.js"></script>
+</body>
+</html>
